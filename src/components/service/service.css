@@ -1,0 +1,32 @@
+.services_service {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.services_service h3 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--color-text);
+    margin: 1.5rem 0;
+}
+
+.services_service p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--color-subtext);
+}
+
+.services_service a {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--color-subtext2);
+}
